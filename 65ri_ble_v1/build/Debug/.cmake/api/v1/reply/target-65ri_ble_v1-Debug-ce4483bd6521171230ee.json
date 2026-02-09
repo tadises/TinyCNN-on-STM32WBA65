@@ -1,0 +1,1313 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "65ri_ble_v1.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_directories",
+			"target_link_libraries",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/stm32cubemx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 287,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 290,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 284,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m33 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "BLE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32WBA65xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_NUCLEO_64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../Core/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Interfaces"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Modules"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/Log"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/LowPower"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/Debug_GPIO"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/Flash"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/ADC_Ctrl"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/CRC_Ctrl"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../STM32_WPAN/App"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../STM32_WPAN/Target"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/trace/adv_trace"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/BasicAES"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Flash"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/MemoryManager"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/RTDebug"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/SerialCmdInterpreter"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Log"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/sequencer"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/tim_serv"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/lpm/tiny_lpm"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/config/ble_basic"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/svc/Src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/BSP/STM32WBAxx_Nucleo"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/_40nm_reg_files"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ot_inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/stack/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/stack/include/auto"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/svc/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m33 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -x assembler-with-cpp -MMD -MP -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "BLE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32WBA65xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_NUCLEO_64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../Core/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Interfaces"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Modules"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/Log"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/LowPower"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/Debug_GPIO"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/Flash"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/ADC_Ctrl"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../System/Config/CRC_Ctrl"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../STM32_WPAN/App"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/cmake/stm32cubemx/../../STM32_WPAN/Target"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/trace/adv_trace"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/BasicAES"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Flash"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/MemoryManager"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/RTDebug"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/SerialCmdInterpreter"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Log"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/sequencer"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/tim_serv"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/lpm/tiny_lpm"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/config/ble_basic"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/svc/Src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/BSP/STM32WBAxx_Nucleo"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/_40nm_reg_files"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ot_inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/stack/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/stack/include/auto"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/svc/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				24
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "STM32_Drivers::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Log::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Modules::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "STM32_WPAN::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "SerialCmdInterpreter::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "MemoryManager::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "RTDebug::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Utilities::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Flash::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BasicAES::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Interface::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Startup::@768a070a0fe75716b479"
+		}
+	],
+	"id" : "65ri_ble_v1::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=cortex-m33 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -O0 -g3",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mcpu=cortex-m33 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/STM32WBA65xx_FLASH.ld\" --specs=nano.specs -Wl,-Map=65ri_ble_v1.map -Wl,--gc-sections -Wl,--print-memory-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LE:\\STM32\\Repository\\STM32Cube_FW_WBA_V1.7.0\\Middlewares\\ST\\STM32_WPAN\\link_layer\\ll_cmd_lib\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LE:\\STM32\\Repository\\STM32Cube_FW_WBA_V1.7.0\\Middlewares\\ST\\STM32_WPAN\\ble\\stack\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-l:WBA6_LinkLayer_BLE_Basic_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-l:stm32wba_ble_stack_basic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "65ri_ble_v1",
+	"nameOnDisk" : "65ri_ble_v1.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				24
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/Target/bleplat.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/Target/power_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/Target/linklayer_plat.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/Target/bpka.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/Target/ll_sys_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/Target/host_stack_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/App/app_ble.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/App/app_bsp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/App/p2p_server.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "STM32_WPAN/App/p2p_server_app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "System/Modules/ble_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "System/Interfaces/stm32_lpm_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "System/Config/Debug_GPIO/app_debug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "System/Config/LowPower/user_low_power_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "System/Config/LowPower/peripheral_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "System/Config/ADC_Ctrl/adc_ctrl_conf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "System/Config/CRC_Ctrl/crc_ctrl_conf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "System/Config/Flash/simple_nvm_arbiter_conf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/app_entry.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32wbaxx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32wbaxx_hal_msp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/sysmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "startup_stm32wba65xx.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wbaxx.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_dma.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_dma_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_rcc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_rcc_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_cortex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_flash.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_flash_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_gpio.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_exti.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_pwr.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_pwr_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_exti.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_crc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_crc_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_icache.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_gpio.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_ramcfg.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_rng.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_rng_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_rtc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_rtc_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_tim.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_dma.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_uart.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_uart_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_adc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_usart.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_usart_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Log.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Log/log_module.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Modules.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/adc_ctrl.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Modules.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/app_sys.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Modules.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/crc_ctrl.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Modules.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/otp.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Modules.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/scm.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Modules.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/stm_list.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Modules.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/stm_queue.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Modules.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/temp_measurement.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_WPAN.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_WPAN.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_cs.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_WPAN.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_dp_slp.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_WPAN.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_intf.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_WPAN.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_startup.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/SerialCmdInterpreter.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/SerialCmdInterpreter/serial_cmd_interpreter.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/MemoryManager.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/MemoryManager/advanced_memory_manager.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/MemoryManager.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/MemoryManager/stm32_mm.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/RTDebug.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/RTDebug/RTDebug.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/RTDebug.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/RTDebug/RTDebug_dtb.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/trace/adv_trace/stm32_adv_trace.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_mem.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_systime.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_tiny_sscanf.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_tiny_vsnprintf.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/sequencer/stm32_seq.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/tim_serv/stm32_timer.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/lpm/tiny_lpm/stm32_lpm.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Flash.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Flash/flash_driver.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Flash.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Flash/flash_manager.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Flash.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Flash/rf_timing_synchro.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Flash.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Flash/simple_nvm_arbiter.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/BasicAES.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/BasicAES/baes_cmac.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/BasicAES.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/BasicAES/baes_ccm.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/BasicAES.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/BasicAES/baes_ecb.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Interface.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/adv_trace_usart_if.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Interface.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_aes.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Interface.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_otp.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Interface.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_pka.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Interface.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_pka_p256.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Interface.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_rng.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Interface.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/timer_if.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/Startup.dir/E_/STM32/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Startup/stm32wbaxx_ResetHandler_GCC.s.obj",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

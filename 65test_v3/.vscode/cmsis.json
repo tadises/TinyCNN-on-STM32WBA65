@@ -1,0 +1,7 @@
+{
+    "targetSet": {
+        "I2C_Master": {
+            "activeTargetType": "DA14531"
+        }
+    }
+}

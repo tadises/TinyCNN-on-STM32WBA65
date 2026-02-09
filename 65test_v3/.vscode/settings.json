@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stm32wbaxx_hal_usart.h": "c",
+        "aivalidation.h": "c",
+        "ai_datatypes_defines.h": "c",
+        "ai_platform.h": "c"
+    }
+}

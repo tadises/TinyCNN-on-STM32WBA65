@@ -1,0 +1,17 @@
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/CMakeFiles/65ri_ble_v1.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/CMakeFiles/edit_cache.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/CMakeFiles/rebuild_cache.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/Log.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/Modules.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_WPAN.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/SerialCmdInterpreter.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/MemoryManager.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/RTDebug.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/Flash.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/BasicAES.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/Interface.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/Startup.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

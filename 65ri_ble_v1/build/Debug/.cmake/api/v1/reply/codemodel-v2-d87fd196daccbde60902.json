@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "cmake/stm32cubemx",
+					"jsonFile" : "directory-cmake.stm32cubemx-Debug-a874d3cc84b5982fda2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cmake/stm32cubemx",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "65ri_ble_v1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "65ri_ble_v1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-65ri_ble_v1-Debug-ce4483bd6521171230ee.json",
+					"name" : "65ri_ble_v1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "BasicAES::@768a070a0fe75716b479",
+					"jsonFile" : "target-BasicAES-Debug-e627d5c9ad555aa032d2.json",
+					"name" : "BasicAES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Flash::@768a070a0fe75716b479",
+					"jsonFile" : "target-Flash-Debug-1828e5410f829516a066.json",
+					"name" : "Flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Interface::@768a070a0fe75716b479",
+					"jsonFile" : "target-Interface-Debug-3ec8a8d7fcee016f6485.json",
+					"name" : "Interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Log::@768a070a0fe75716b479",
+					"jsonFile" : "target-Log-Debug-6e81eacf6fa61ddbaebb.json",
+					"name" : "Log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MemoryManager::@768a070a0fe75716b479",
+					"jsonFile" : "target-MemoryManager-Debug-79c0cba7b30d4af12c68.json",
+					"name" : "MemoryManager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Modules::@768a070a0fe75716b479",
+					"jsonFile" : "target-Modules-Debug-3e1d492483a9a1f0a1ab.json",
+					"name" : "Modules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RTDebug::@768a070a0fe75716b479",
+					"jsonFile" : "target-RTDebug-Debug-b204764752cc9d8dbf27.json",
+					"name" : "RTDebug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "STM32_Drivers::@768a070a0fe75716b479",
+					"jsonFile" : "target-STM32_Drivers-Debug-e67abdd95c7b49e99e0e.json",
+					"name" : "STM32_Drivers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "STM32_WPAN::@768a070a0fe75716b479",
+					"jsonFile" : "target-STM32_WPAN-Debug-3aa70f62fe996cfeb1fd.json",
+					"name" : "STM32_WPAN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SerialCmdInterpreter::@768a070a0fe75716b479",
+					"jsonFile" : "target-SerialCmdInterpreter-Debug-d9b12e2cb880e395bc2e.json",
+					"name" : "SerialCmdInterpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Startup::@768a070a0fe75716b479",
+					"jsonFile" : "target-Startup-Debug-9d358aeeeb3c6abb77ff.json",
+					"name" : "Startup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Utilities::@768a070a0fe75716b479",
+					"jsonFile" : "target-Utilities-Debug-a4a046c753d5ffd1c398.json",
+					"name" : "Utilities",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1/build/Debug",
+		"source" : "D:/NTU/Dissertation/AI_deploy/65ri_ble_v1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
